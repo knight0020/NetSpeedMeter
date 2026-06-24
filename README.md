@@ -44,6 +44,12 @@ If you want a single `.exe` file you can run on any Windows PC without Python in
 
 Tip: place a shortcut to the `.exe` in your Windows Startup folder (`Win+R` → `shell:startup`) if you want the widget to launch automatically every time you log in.
 
+Alternative way:
+Make an executing(.exe) file:
+  1. Open the folder in the powershell
+  2. Run this command py -m PyInstaller --onefile --noconsole speedmeter.py
+It will create an exe file in that folder
+
 ## Files in this package
 
 | File | Purpose |
