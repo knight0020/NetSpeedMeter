@@ -47,7 +47,10 @@ Tip: place a shortcut to the `.exe` in your Windows Startup folder (`Win+R` → 
 ### Alternative way
 Make an executing(.exe) file:
   1. Open the folder in the powershell
-  2. Run this command `py -m PyInstaller --onefile --noconsole speedmeter.py `
+  2. Run this command :
+   ```
+  py -m PyInstaller --onefile --noconsole speedmeter.py
+   ```
 It will create an `exe` file in that folder
 
 ## Files in this package
